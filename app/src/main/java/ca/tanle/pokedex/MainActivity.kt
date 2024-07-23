@@ -72,7 +72,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 @Preview(showBackground = true)
 @Composable
 fun GreetingPreview() {
-    PokedexTheme {
-        Greeting("Android")
-    }
+    Greeting("Android")
+//    PokedexTheme {
+//    }
 }
