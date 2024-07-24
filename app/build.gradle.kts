@@ -96,7 +96,7 @@ dependencies {
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.3.1")
 
     // Coil
-    implementation ("io.coil-kt:coil:1.1.1")
+    implementation("io.coil-kt:coil-compose:2.2.2")
     implementation ("com.google.accompanist:accompanist-coil:0.7.0")
 
     // Dagger - Hilt
@@ -106,7 +106,7 @@ dependencies {
 //    implementation("androidx.hilt:hilt-lifecycle-viewmodel:1.0.0-alpha03")
 
     kapt("androidx.hilt:hilt-compiler:1.2.0")
-    implementation("androidx.hilt:hilt-navigation-compose:1.0.0-alpha01")
+    implementation("androidx.hilt:hilt-navigation-compose:1.2.0")
 
     implementation ("androidx.appcompat:appcompat:1.7.0")
     implementation("androidx.palette:palette:1.0.0")
