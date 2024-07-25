@@ -110,6 +110,8 @@ dependencies {
 
     implementation ("androidx.appcompat:appcompat:1.7.0")
     implementation("androidx.palette:palette:1.0.0")
+
+    implementation("androidx.compose.foundation:foundation:1.7.0-alpha02")
 }
 
 kapt {
