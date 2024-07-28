@@ -15,6 +15,6 @@ The Pokemon App is an Android application that allows users to explore and learn
 
 To install and run the Pokemon App on your Android device, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/your-username/PokemonApp.git`
+1. Clone the repository: `git clone https://github.com/tanle-dev/Pokemon_App.git`
 2. Open the project in Android Studio.
 3. Build and run the app on your device or emulator.
