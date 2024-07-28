@@ -22,6 +22,7 @@ import ca.tanle.pokedex.pokemondetail.PokemonDetailScreen
 import ca.tanle.pokedex.pokemonlist.PokemonListScreen
 import ca.tanle.pokedex.ui.theme.PokedexTheme
 import dagger.hilt.android.AndroidEntryPoint
+import java.util.Locale
 
 @AndroidEntryPoint
 class MainActivity : ComponentActivity() {
@@ -56,7 +57,7 @@ class MainActivity : ComponentActivity() {
                             it.arguments?.getString("pokemonName")
                         }
 
-                        PokemonDetailScreen(dominantColor, pokemonName ?: "", navController)
+                        PokemonDetailScreen(dominantColor, pokemonName?.toLowerCase(Locale.ROOT) ?: "", navController)
                     }
                 }
             }
